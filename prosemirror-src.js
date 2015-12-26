@@ -2,7 +2,7 @@ import {ProseMirror} from "prosemirror/dist/edit/main"
 
 import {Pos, Node} from "prosemirror/dist/model"
 
-import {fromDOM, fromHTML} from "prosemirror/dist/parse"
+import {fromDOM, fromHTML} from "prosemirror/dist/parse/dom"
 
 import {MenuBar} from "prosemirror/dist/menu/menubar"
 

@@ -12117,20 +12117,20 @@ var _main = require("prosemirror/dist/edit/main");
 
 var _model = require("prosemirror/dist/model");
 
-var _parse = require("prosemirror/dist/parse");
+var _dom = require("prosemirror/dist/parse/dom");
 
 var _menubar = require("prosemirror/dist/menu/menubar");
 
-var _dom = require("prosemirror/dist/dom");
+var _dom2 = require("prosemirror/dist/dom");
 
-var _dom2 = require("prosemirror/dist/serialize/dom");
+var _dom3 = require("prosemirror/dist/serialize/dom");
 
 window.pm = {
     ProseMirror: _main.ProseMirror,
     Pos: _model.Pos,
     Node: _model.Node,
-    fromDOM: _parse.fromDOM,
-    fromHTML: _parse.fromHTML,
+    fromDOM: _dom.fromDOM,
+    fromHTML: _dom.fromHTML,
     MenuBar: _menubar.MenuBar,
     SchemaSpec: _model.SchemaSpec,
     Schema: _model.Schema,
@@ -12141,8 +12141,8 @@ window.pm = {
     Text: _model.Text,
     Attribute: _model.Attribute,
     StyleType: _model.StyleType,
-    elt: _dom.elt,
-    wrap: _dom2.wrap
+    elt: _dom2.elt,
+    wrap: _dom3.wrap
 };
 
-},{"prosemirror/dist/dom":1,"prosemirror/dist/edit/main":12,"prosemirror/dist/menu/menubar":18,"prosemirror/dist/model":24,"prosemirror/dist/parse":30,"prosemirror/dist/serialize/dom":32}]},{},[49]);
+},{"prosemirror/dist/dom":1,"prosemirror/dist/edit/main":12,"prosemirror/dist/menu/menubar":18,"prosemirror/dist/model":24,"prosemirror/dist/parse/dom":29,"prosemirror/dist/serialize/dom":32}]},{},[49]);
