@@ -6,7 +6,7 @@ import {fromDOM, fromHTML} from "prosemirror/dist/parse/dom"
 
 import {MenuBar} from "prosemirror/dist/menu/menubar"
 
-import {SchemaSpec, Schema, defaultSchema, Block, TextBlock, Inline, Text,
+import {SchemaSpec, Schema, defaultSchema, Block, Textblock, Inline, Text,
         Attribute, StyleType} from "prosemirror/dist/model"
 
 import {elt} from "prosemirror/dist/dom"
@@ -24,7 +24,7 @@ window.pm = {
     Schema: Schema,
     defaultSchema: defaultSchema,
     Block: Block,
-    TextBlock: TextBlock,
+    Textblock: Textblock,
     Inline: Inline,
     Text: Text,
     Attribute: Attribute,
