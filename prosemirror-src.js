@@ -13,6 +13,10 @@ import {elt} from "prosemirror/dist/dom"
 
 import {wrap} from "prosemirror/dist/serialize/dom"
 
+import {Step} from "prosemirror/dist/transform"
+
+import "prosemirror/dist/collab"
+
 window.pm = {
     ProseMirror: ProseMirror,
     Pos: Pos,
@@ -30,5 +34,6 @@ window.pm = {
     Attribute: Attribute,
     StyleType: StyleType,
     elt: elt,
-    wrap: wrap
+    wrap: wrap,
+    Step: Step
 };
