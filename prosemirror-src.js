@@ -13,7 +13,15 @@ import {elt} from "prosemirror/dist/dom"
 
 import {wrap} from "prosemirror/dist/serialize/dom"
 
+import {serializeTo} from "prosemirror/dist/serialize"
+
 import {Step} from "prosemirror/dist/transform"
+
+import {defineCommand} from "prosemirror/dist/edit"
+import {eventMixin} from "prosemirror/dist/util/event"
+import {MenuUpdate} from "prosemirror/dist/menu/update"
+
+import {Tooltip} from "prosemirror/dist/menu/tooltip"
 
 import "prosemirror/dist/collab"
 
@@ -35,5 +43,10 @@ window.pm = {
     StyleType: StyleType,
     elt: elt,
     wrap: wrap,
-    Step: Step
+    Step: Step,
+    serializeTo: serializeTo,
+    defineCommand: defineCommand,
+    eventMixin: eventMixin,
+    MenuUpdate: MenuUpdate,
+    Tooltip: Tooltip
 };
