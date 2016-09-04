@@ -1,6 +1,6 @@
 # prosemirror-test
 
-** EDIT: Prosemirror has now been added to npm. Please use that version and forget about this.**
+**EDIT: Prosemirror has now been added to npm. Please use that version and forget about this.**
 
 A temporary package until ProseMirror is added to npm
 
